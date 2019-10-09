@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-long long int i,j,k,l;
+long long int i,j,m,l;
 for(i=1;i<=5;i++)
 {
 printf("\n");
@@ -14,14 +14,14 @@ for(j=1;j<=2*i-1;j++)
 printf("*");
 }
 }
-for(k=1;k<=5;k++)
+for(m=1;m<=5;m++)
 {
 printf("\n");
-for(l=1;l<=k;l++)
+for(l=1;l<=m;l++)
 {
 printf(" ");
 }
-for(l=1;l<=11-(2*k);l++)
+for(l=1;l<=11-(2*m);l++)
 {
 printf("*");
 }
