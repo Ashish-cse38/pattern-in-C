@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main()
 {
-long long int i,j,m,l;
-for(i=1;i<=5;i++)
+long long int u,j,m,l;
+for(u=1;u<=5;u++)
 {
 printf("\n");
-for(j=1;j<=6-i;j++)
+for(j=1;j<=6-u;j++)
 {
 printf(" ");
 }
-for(j=1;j<=2*i-1;j++)
+for(j=1;j<=2*u-1;j++)
 {
 printf("*");
 }
